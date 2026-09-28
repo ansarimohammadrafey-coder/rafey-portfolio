@@ -149,9 +149,12 @@ nav ul li a:hover::after {
         #38bdf8
     );
 
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+ background-size: 200% auto;
+
+-webkit-background-clip: text;
+background-clip: text;
+
+-webkit-text-fill-color: transparent;
 
     animation: gradientMove 4s linear infinite;
 }
